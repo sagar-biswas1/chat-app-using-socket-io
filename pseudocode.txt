@@ -1,0 +1,17 @@
+--------------chat app---------------
+
+models
+/*
+---ChatModel (creating users chat relation between two users.)
+       -members[userIds]
+---MessageModal
+    -chatId (id from one chat modal)
+    -senderId(id of user who sent the message)
+*/
+
+
+
+steps--
+1. at first we will make a post req where will we create a chat relation between two users.
+2. we will make a route two find a chat connection of any of the two userIds
+3. we will create another route to find a chat between two users.
